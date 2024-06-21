@@ -417,7 +417,7 @@ class Fluid {
 
     if (scene.showVelocities) {
 
-      c.strokeStyle = "#00a6fb";	
+      c.strokeStyle = "#c0edff";	
       scale = 0.02;	
 
       for (var i = 0; i < f.numX; i++) {
@@ -454,7 +454,7 @@ class Fluid {
       var segLen = f.h * 0.2;
       var numSegs = 15;
 
-      c.strokeStyle = "#00d0fa";
+      c.strokeStyle = "#c0edff";
 
       for (var i = 1; i < f.numX - 1; i += 5) {
         for (var j = 1; j < f.numY - 1; j += 5) {
